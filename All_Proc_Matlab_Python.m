@@ -4,7 +4,7 @@ addpath(genpath(cd));
 %% Add Noise proc
 % function AddNoise.m
 
-% AddNoise
+AddNoise
 
 %% Parameter Setting
 %%%% For GLOBAL SETTING
