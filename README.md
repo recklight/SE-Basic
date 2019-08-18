@@ -1,2 +1,0 @@
-# SE-basic
-SpeechEnhancementLeaningBasic
