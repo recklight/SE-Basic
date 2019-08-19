@@ -1,0 +1,4 @@
+hdf5storage
+keras
+numpy
+scipy

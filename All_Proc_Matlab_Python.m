@@ -1,5 +1,5 @@
 function All_Proc_Matlab_Python
-fclose all;clear all;close all;clc;
+clear all;clc
 addpath(genpath(cd));
 %% Add Noise proc
 % function AddNoise.m
