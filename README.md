@@ -12,16 +12,17 @@ SE-basic結合Matlab與Keras，特點是對於以往使用Matlab的同學更容�
 git clone https://github.com/recklight/SE-basic.git
 ```
 
-3.安裝所需 Python packages
+3.安裝所需 Python packages:
 ```
 pip install -r requirements.txt
 ```
 
-4.運行主程式:
+4.開啟matlab，將Currnt Folder移至 ../SE-basic 後運行主程式:
 
 ```
 All_Proc_Matlab_Python.m
 ```
 
-5.評估語音指標結果將顯示在 SE-basic\eva_result 下
+5.評估語音指標結果將顯示在 SE-basic\eva_result 下:
+
 ![image](https://github.com/recklight/SE-basic/blob/master/result.png)
