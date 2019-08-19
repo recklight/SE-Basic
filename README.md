@@ -6,23 +6,21 @@ SE-basic結合Matlab與Keras，特點是對於以往使用Matlab的同學更容�
 
 ## 使用方法:
 1.需先在電腦系統上安裝tensorflow CPU版本或是GPU版本，若安裝GPU版本則需另外安裝相對應的CUDA版本，安裝教學將於SE-Keras講述。
-查看系統CUDA版本:
-
-```
-nvcc -V
-```
 
 2.下載SE-basic: 
-
 ```
 git clone https://github.com/recklight/SE-basic.git
 ```
 
-3.運行主程式:
+3.安裝所需 Python packages
+```
+pip install -r requirements.txt
+```
+
+4.運行主程式:
 
 ```
 All_Proc_Matlab_Python.m
 ```
 
-4.評估語音指標結果將顯示在 SE-basic\eva_result 下
-
+5.評估語音指標結果將顯示在 SE-basic\eva_result 下
