@@ -1,4 +1,4 @@
-# SE-basic
+# SE-Basic
 SpeechEnhancementLeaningBasic
 
 SE-basic為一專門為具備Matlab基礎的同學設計的語音增強學習程式。
