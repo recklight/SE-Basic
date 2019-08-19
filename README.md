@@ -24,3 +24,4 @@ All_Proc_Matlab_Python.m
 ```
 
 5.評估語音指標結果將顯示在 SE-basic\eva_result 下
+![image](https://github.com/recklight/SE-basic/blob/master/result.png)
