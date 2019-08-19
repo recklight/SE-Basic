@@ -4,7 +4,6 @@ if exist('evawave','dir') ~=7
     copy_file
 end
 
-ResultFolder = InputPar.runName;
 FinNos = dir('evawave\noy');
 NoiseName={};MagdB={};
 for i =3:length(FinNos)
@@ -16,10 +15,10 @@ for i =3:length(FinMag)
 end
 
 indir1 = 'evawave\cln';%  clean data
-outdir = ['eva_result\',ResultFolder];%  results
+outdir = 'eva_result\';%  results
 mkdir(outdir)
 
-MeanFileName = ['mean_'];
+MeanFileName = InputPar.runName;
 fid = fopen(sprintf('%s%s%s.txt',outdir,filesep,MeanFileName),'wb');
 fprintf(fid,'%20s:\t%8s\t%8s\t%8s\t%8s\n','EVALUATED METHODS','PESQ','SDI','STOI','SSNRI');
 
