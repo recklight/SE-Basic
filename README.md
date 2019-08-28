@@ -10,22 +10,23 @@ SE-basic結合Matlab與Keras，特點是對於以往使用Matlab的同學更容�
 1.安裝python 3.6.7.
 2.安裝CUDA10.0-windows10與cudnn-10.0-windows-v7.4.1.5.
 
-3.下載SE-basic: 
+3.下載SE-Basic: 
 ```
-git clone https://github.com/recklight/SE-basic.git
+cd C:\
+git clone https://github.com/recklight/SE-Basic.git
 ```
 
-4.安裝所需 Python packages:
+4.安裝所需 Packages:
 ```
 pip install -r requirements.txt
 ```
 
-5.開啟matlab，將Currnt Folder移至 ../SE-basic 後運行主程式:
+5.開啟Matlab，將Currnt Folder移至 C:\SE-Basic 後運行All_Proc_Matlab_Python.m:
 
 ```
-All_Proc_Matlab_Python.m
+matlab
 ```
 
-6.評估語音指標結果將顯示在 ../eva_result 下:
+6.評估語音指標結果將顯示在 C:\SE-Basic\eva_result 下:
 
 ![image](https://github.com/recklight/SE-basic/blob/master/result.png)
