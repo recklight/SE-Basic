@@ -5,8 +5,9 @@ SE-basic為一專門為具備Matlab基礎的同學設計的語音增強學習程
 SE-basic結合Matlab與Keras，特點是對於以往使用Matlab的同學更容易上手，而使用Keras能夠快速的學習如何建立模型以及訓練模型。
 
 ## 使用方法:
-1.需先在電腦系統上安裝tensorflow CPU版本或是GPU版本，若安裝GPU版本則需另外安裝相對應的CUDA版本，安裝教學將於SE-Keras講述。
-
+使用本範例前，需先在電腦系統上安裝tensorflow CPU版本或是GPU版本，若安裝GPU版本則需另外安裝相對應的CUDA版本，本範例是以GPU版本講述。
+1.安裝python 3.6.7.
+2.安裝CUDA10.0-windows10與cudnn-10.0-windows-v7.4.1.5.
 2.下載SE-basic: 
 ```
 git clone https://github.com/recklight/SE-basic.git
