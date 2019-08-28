@@ -6,6 +6,13 @@ SE-basic結合Matlab與Keras，特點是對於以往使用Matlab的同學更容�
 
 ## 使用方法:
 使用本範例前，需先在電腦系統上安裝tensorflow CPU版本或是GPU版本，若安裝GPU版本則需另外安裝相對應的CUDA版本，本範例是以GPU版本講述。
+0.本範例安裝環境
+```
+System: Windows10
+CPU: Intel i9-9900K
+GPU: GTX 1080 ti
+RAM: 建議使用16GB以上
+```
 
 1.安裝python 3.6.7.
 2.安裝CUDA10.0-windows10與cudnn-10.0-windows-v7.4.1.5.
